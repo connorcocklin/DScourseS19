@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Problem Set 1}
+\author{connorcocklin }
+\date{January 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{My Interests}
+My interests primarily lie in exercise physiology and strength and conditioning. I completed my undergrad in Entrepreneurship because I plan on owning a weight training facility after grad school. I love sports and because of that love after high school I began to immerse myself in the niche sports community; power lifting, strongman, weightlifting, Crossfit.I am taking this class under the guise of my mentor Dr. Larson, who has been helping me navigate the Data Analytics Masters Program. I have access to an amazing population and that is recreationallly trained powerlifters and strongmen, because of this I would love to find normalized data for bar velocity among the Bench, Squat, and Deadlift from this population. Many insights could be discovered such as how long it takes a certain sample to acquire a certain power output, etc. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=.1]{lift.jpg}
+\caption{495lb. deadlift}
+\label{fig:deadlift}
+\end{figure}
+\section{Equation}
+$a^2+b^2=C^2$
+
+\end{document}
