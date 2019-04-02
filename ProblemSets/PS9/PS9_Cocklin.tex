@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{PS9_Cocklin}
+\author{connorcocklin }
+\date{April 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{LASSO}
+The optimal lambda was found at lambda=0.00826.
+\\The in-sample RMSE was rmse.test.rmse=12712.8275793.
+\\The out of sample rmse.test.rmse=0.1681331.
+
+\section{Ridge}
+The optimal Lambda was found at lambda=0.144.
+\\ The in-sample rmse.test.rmse=9769.2706458
+\\ The out of sample RMSE is 0.1616384.
+\section{Elastic Net Model}
+The optimal Lambda was found at lambda=0.0177.
+\\ The in-sample rmse.test.rmse=0.1789951
+\\ the out-of-sample 0.1348488
+\section{Model Explanation}
+Since there is no regulation in OLS we cannot use the data.frame with a simple linear regression to handle new datasets. As a result of the regularization done through the LASSO, Ridge, and Net Elastic models we are able to form balanced models with the right amount of variance and bias to handle new data coming into the model.
+\end{document}
